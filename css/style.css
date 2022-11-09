@@ -27,6 +27,18 @@ p{
     line-height: 27px;
 }
 
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.line-height-40{
+    line-height: 40px;
+}
+
 .circle{
     border-radius: 100%;
 }
@@ -80,11 +92,15 @@ p{
     font-size: 25px;
 }
 
-.font-size-20{
+.font-size-45{
+    font-size: 45px;
+}
+
+.font-size-18{
     font-size: 18px;
 }
 
-.font-size-40{
+.font-size-29{
     font-size: 29px;
 }
 
@@ -92,7 +108,7 @@ p{
     font-size: 50px;
 }
 
-.font-size-16{
+.font-size-14{
     font-size: 14px;
 }
 
@@ -106,6 +122,10 @@ p{
 
 .margin-bottom-50{
     margin-bottom: 50px;
+}
+
+.margin-bottom-40{
+    margin-bottom: 40px;
 }
 
 .margin-bottom-30{
@@ -230,6 +250,15 @@ p{
     .letter-spacing{
         letter-spacing: 2px;
         padding: 10px 50px;
+    }
+
+    .position{
+        top: 0;
+        right: 100px;
+    }
+
+    .padding-in{
+        padding: 5px 15px;
     }
 
 /* end main */
