@@ -10,10 +10,6 @@ body{
 
 /* utility */
 
-.bg-blue{
-    background-color: #0084FD;
-}
-
 .flex{
     display: flex;
 }
@@ -51,6 +47,10 @@ p{
     border-radius: 20px;
 }
 
+.bg-blue{
+    background-color: #0084FD;
+}
+
 .bg-lightblue{
     background-color: #B5DDFF;
     border-radius: 20px;
@@ -66,6 +66,10 @@ p{
 
 .color-lightblue{
     color: #168EFD;
+}
+
+.text-orange{
+    color: orange;
 }
 
 .text-grey{
@@ -110,6 +114,10 @@ p{
 
 .font-size-14{
     font-size: 14px;
+}
+
+.font-size-60{
+    font-size: 60px;
 }
 
 .font-size-80{
@@ -252,6 +260,8 @@ p{
         padding: 10px 50px;
     }
 
+    /* fith section */
+
     .position{
         top: 0;
         right: 100px;
@@ -259,6 +269,33 @@ p{
 
     .padding-in{
         padding: 5px 15px;
+    }
+
+    /* sixth section */
+
+    .padding-started{
+        padding: 20px 80px;
+        font-weight: 700;
+    }
+
+    ul{
+        width: 100%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    li:first-child{
+        width: 50%;
+    }
+
+    li{
+        width: 20%;
+    }
+
+    li:first-child, li:last-child{
+        list-style-type: none;
     }
 
 /* end main */
