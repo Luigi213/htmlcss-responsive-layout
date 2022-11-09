@@ -402,10 +402,6 @@ footer .font-size-14 p{
         padding: 3px 40px 6px 40px;
     }
 
-    .font-size-14{
-        font-size: 12px;
-    }
-    
     .font-size-80{
         font-size: 60px;
     }
@@ -441,7 +437,7 @@ footer .font-size-14 p{
 
     .right-desktop .phone{
         width: 100%;
-        height: 238px;
+        height: 262px;
     }
     
     /* main second section */
