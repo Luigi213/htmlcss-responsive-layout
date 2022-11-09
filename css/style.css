@@ -64,8 +64,24 @@ p{
     color: black;
 }
 
+.text-purple{
+    color: #9792E4;
+}
+
 .text-align-center{
     text-align: center;
+}
+
+.font-size{
+    font-size: 25px;
+}
+
+.font-size-20{
+    font-size: 18px;
+}
+
+.font-size-40{
+    font-size: 29px;
 }
 
 .font-size-16{
@@ -94,6 +110,10 @@ p{
 
 .margin-bottom-25{
     margin-bottom: 25px;
+}
+
+.margin-bottom-60{
+    margin-bottom: 60px;
 }
 
 .margin-bottom-80{
@@ -135,9 +155,6 @@ p{
     align-items: center;
 }
 
-.font-size{
-    font-size: 25px;
-}
 
 /* main */
 
@@ -183,6 +200,19 @@ p{
         height: 260px;
     }   
 
-    cir
+    /* third section */
+
+    h3{
+        font-weight: 100;
+    }
+
+    .img-circle{
+        height: 200px;  
+        width: 200px;
+        object-fit: cover;
+        border-radius: 100%;
+    }
+
+
 
 /* end main */
