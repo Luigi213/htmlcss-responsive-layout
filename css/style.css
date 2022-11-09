@@ -23,13 +23,29 @@ button {
     cursor: pointer;
 }
 
+p{
+    line-height: 27px;
+}
+
+.circle{
+    border-radius: 100%;
+}
+
+.border-radius{
+    border-radius: 50px;
+}
+
 .bg-lightblue{
     background-color: #B5DDFF;
     border-radius: 20px;
 }
 
-p{
-    line-height: 27px;
+.bg-purple{
+    background-color: #9792E4;
+}
+
+.bg-white{
+    background-color: white;
 }
 
 .color-lightblue{
@@ -38,6 +54,14 @@ p{
 
 .text-grey{
     color: #7B96AD;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-black{
+    color: black;
 }
 
 .text-align-center{
@@ -64,21 +88,37 @@ p{
     margin-bottom: 30px;
 }
 
-.margin-bottom-25{
-    margin-bottom: 25px;
+.margin-bottom-20{
+    margin-bottom: 20px;
 }
 
-.padding-bottom-30{
-    padding-bottom: 30px;
+.margin-bottom-25{
+    margin-bottom: 25px;
 }
 
 .margin-bottom-80{
     margin-bottom: 80px;
 }
 
+.padding-bottom-30{
+    padding-bottom: 30px;
+}
+
+.padding-top-30{
+    padding-top: 30px;
+}
+
+.padding-60{
+    padding: 60px 0;
+}
+
+.padding-10{
+    padding: 15px 17px;
+}
+
 /* header */
 
-.container{
+.row{
     width: 85%;
     margin: 0 auto;
 }
@@ -101,28 +141,48 @@ p{
 
 /* main */
 
-.card{
-    width: 80%;
-    padding-top: 30px;
-    margin: 0 auto;
-}
+    /* first seciton */
+    
+    .col-80{
+        width: 100%;
+    }
 
-h2{
-    color: #168EFD;
-    font-size: 22px;
-}
+    .card{
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
 
-.btn-card{
-    padding: 10px 55px;
-    border-radius: 20px;
-    color: white;
-    word-spacing: 5px;
-}
+    h2{
+        color: #168EFD;
+        font-size: 22px;
+    }
 
-.phone{
-    height: 350px;
-    text-align: center;
-    background-image: url(../img/phone.png);
-    background-size: cover;
-    background-position: center;
-}
+    .btn-card{
+        padding: 10px 55px;
+        border-radius: 20px;
+        color: white;
+        word-spacing: 5px;
+    }
+
+    .phone{
+        height: 350px;
+        text-align: center;
+        background-image: url(../img/phone.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* second section */
+    
+    .height-img{
+        height: 300px;
+    }
+
+    .card .height-img{
+        height: 260px;
+    }   
+
+    cir
+
+/* end main */
