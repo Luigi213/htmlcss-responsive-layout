@@ -299,3 +299,14 @@ p{
     }
 
 /* end main */
+
+/* footer */
+
+footer{
+    background-color: #333333;
+    padding: 40px 0;
+}
+
+footer .font-size-14 p{
+    line-height: 20px;
+}
