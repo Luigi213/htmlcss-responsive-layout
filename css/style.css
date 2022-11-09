@@ -4,27 +4,87 @@
     box-sizing: border-box;
 }
 
-/* header */
+body{
+    font-family:'Segoe UI', sans-serif
+}
+
+/* utility */
 
 .bg-blue{
     background-color: #0084FD;
+}
+
+.flex{
+    display: flex;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+.bg-lightblue{
+    background-color: #B5DDFF;
+    border-radius: 20px;
+}
+
+p{
+    line-height: 27px;
+}
+
+.color-lightblue{
+    color: #168EFD;
+}
+
+.text-grey{
+    color: #7B96AD;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.font-size-16{
+    font-size: 14px;
+}
+
+.font-size-80{
+    font-size: 80px;
+}
+
+.font-weight{
+    font-weight: 600;
 }
 
 .margin-bottom-50{
     margin-bottom: 50px;
 }
 
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+
+.margin-bottom-25{
+    margin-bottom: 25px;
+}
+
+.padding-bottom-30{
+    padding-bottom: 30px;
+}
+
+.margin-bottom-80{
+    margin-bottom: 80px;
+}
+
+/* header */
+
 .container{
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
 }
 
 .logo{
     padding: 20px 0;
-}
-
-.flex{
-    display: flex;
 }
 
 .space-between{
@@ -37,4 +97,32 @@
 
 .font-size{
     font-size: 25px;
+}
+
+/* main */
+
+.card{
+    width: 80%;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+h2{
+    color: #168EFD;
+    font-size: 22px;
+}
+
+.btn-card{
+    padding: 10px 55px;
+    border-radius: 20px;
+    color: white;
+    word-spacing: 5px;
+}
+
+.phone{
+    height: 350px;
+    text-align: center;
+    background-image: url(../img/phone.png);
+    background-size: cover;
+    background-position: center;
 }
