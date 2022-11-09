@@ -223,6 +223,7 @@ p{
     }
 
     .phone{
+        width: 265px;
         height: 350px;
         text-align: center;
         background-image: url(../img/phone.png);
@@ -255,6 +256,11 @@ p{
 
     /* fourth section */
 
+    .col-80 .relative{
+        width: 200px;
+        height: 200px;
+    }
+
     .letter-spacing{
         letter-spacing: 2px;
         padding: 10px 50px;
@@ -264,7 +270,7 @@ p{
 
     .position{
         top: 0;
-        right: 100px;
+        right: 0;
     }
 
     .padding-in{
@@ -309,4 +315,58 @@ footer{
 
 footer .font-size-14 p{
     line-height: 20px;
+}
+
+/* media */
+
+@media screen and (min-width: 768px ){
+    /* main first section */
+    .row-main{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 80px;
+    }
+
+    .col-section{
+        display: flex;        
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .col-65-tb{
+        width: 65%;
+    }
+
+    .col-30-tb{
+        width: 30%;
+    }
+
+    .row-main .margin-bottom-80{
+        margin-bottom: 25px;
+    }
+
+    .flex-cotain{
+        display: flex;
+    }
+
+    /* fouth seciton */
+
+    .row-main-fouth{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col-47-tb{
+        width: 47%;
+    }
+
+    /* fith section */
+
+    .col-60-tb{
+        width: 60%;
+    }
+
+    .col-40-tb{
+        width: 36%;
+    }
 }
