@@ -10,14 +10,31 @@
     </head>
     <body>
         <!-- start header -->
-        <header class="bg-blue margin-bottom-50">
-            <div class="container">
+        <header class="margin-bottom-50">
+            <div class="container bg-blue">
                 <div class="row flex space-between align-items">
                     <div class="logo">
                         <img src="./img/logo.png" alt="logo-header">
                     </div>
-                    <div class="menu">
-                        <i class="fa fa-bars font-size" aria-hidden="true" style="color: white;"></i>
+                    <div class="display-none">
+                        <input class="menu-btn" type="checkbox" id="menu-btn"/>
+                        <label for="menu-btn"><i class=" fa-solid fa-bars font-size-29 text-white"></i></label>
+                        <ul class="menu absolute hide">
+                            <li><a href="#">Planning</a> </li>
+                            <li><a href="#">Testimonials</a> </li>
+                            <li><a href="#">Features</a> </li>
+                            <li><a href="#">About Us</a> </li>
+                            <li><a class="text-black" href="#">Get Started</a> </li>
+                        </ul>
+                    </div>
+                    <div class="container-menu-ds">                    
+                        <ul class="menu-ds">
+                            <li><a href="#">Planning</a> </li>
+                            <li><a href="#">Testimonials</a> </li>
+                            <li><a href="#">Features</a> </li>
+                            <li><a href="#">About Us</a> </li>
+                            <li><a class="text-black" href="#">Get Started</a> </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -153,15 +170,15 @@
                         <h1>Benefits of working with us</h1>
                     </div>
                     <div class="col-section">
-                        <div class="col-80 bg-white col-47-tb border-radius-20 margin-bottom-30">
+                        <div class="col-80 bg-white col-47-tb col-30-ds border-radius-20 margin-bottom-30">
                             <div class="card">
                                 <h1 class="text-purple font-size-50 margin-bottom-20">01</h1>
                                 <h2 class="text-purple margin-bottom-20">Hight Quality</h2>
-                                <p class="text-grey margin-bottom-20">Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
+                                <p class="text-grey margin-bottom-20 ">Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
                                 <button class="bg-purple text-white margin-bottom-30 letter-spacing border-radius-20">more</button>
                             </div>
                         </div>
-                        <div class="col-80 bg-white col-47-tb border-radius-20 margin-bottom-30">
+                        <div class="col-80 bg-white col-47-tb col-30-ds border-radius-20 margin-bottom-30">
                             <div class="card">
                                 <h1 class="text-purple font-size-50 margin-bottom-20">02</h1>
                                 <h2 class="text-purple margin-bottom-20">Creative Team</h2>
@@ -169,7 +186,7 @@
                                 <button class="bg-purple text-white margin-bottom-30 letter-spacing border-radius-20">more</button>
                             </div>
                         </div>
-                        <div class="col-80 bg-white col-47-tb border-radius-20 margin-bottom-30">
+                        <div class="col-80 bg-white col-47-tb col-30-ds border-radius-20 margin-bottom-30">
                             <div class="card">
                                 <h1 class="text-purple font-size-50 margin-bottom-20">03</h1>
                                 <h2 class="text-purple margin-bottom-20">Amazing Results</h2>
@@ -177,7 +194,7 @@
                                 <button class="bg-purple text-white margin-bottom-30 letter-spacing border-radius-20">more</button>
                             </div>
                         </div>
-                        <div class="col-80 bg-white col-47-tb border-radius-20 margin-bottom-30">
+                        <div class="col-80 bg-white col-47-tb col-30-ds border-radius-20 margin-bottom-30">
                             <div class="card">
                                 <h1 class="text-purple font-size-50 margin-bottom-20">04</h1>
                                 <h2 class="text-purple margin-bottom-20">Best Pricing</h2>
@@ -185,7 +202,7 @@
                                 <button class="bg-purple text-white margin-bottom-30 letter-spacing border-radius-20">more</button>
                             </div>
                         </div>
-                        <div class="col-80 bg-white col-47-tb border-radius-20 margin-bottom-30">
+                        <div class="col-80 bg-white col-47-tb col-30-ds border-radius-20 margin-bottom-30">
                             <div class="card">
                                 <h1 class="text-purple font-size-50 margin-bottom-20">05</h1>
                                 <h2 class="text-purple margin-bottom-20">Innovations</h2>
@@ -193,7 +210,7 @@
                                 <button class="bg-purple text-white margin-bottom-30 letter-spacing border-radius-20">more</button>
                             </div>
                         </div>
-                        <div class="col-80 bg-white col-47-tb border-radius-20 margin-bottom-30">
+                        <div class="col-80 bg-white col-47-tb col-30-ds border-radius-20 margin-bottom-30">
                             <div class="card">
                                 <h1 class="text-purple font-size-50 margin-bottom-20">06</h1>
                                 <h2 class="text-purple margin-bottom-20">24/7 Support</h2>
@@ -235,14 +252,13 @@
                         <h3 class="letter-spacing margin-bottom-20">GET STARTED</h3>
                         <h2 class="margin-bottom-25 text-white font-size-29"> Simple, Transparent Pricing</h2>
                         <h1 class="font-size-60 text-orange margin-bottom-25">It's Free!</h1>
-                        <p class="margin-bottom-20">We're still in beta and we will be for awhile. As we add more functionality, we'll look into other plans with more controls.</p>
+                        <p class="margin-bottom-20 margin-bottom-20-special">We're still in beta and we will be for awhile. As we add more functionality, we'll look into other plans with more controls.</p>
                         <button class="bg-white text-purple letter-spacing border-radius-50  padding-started margin-bottom-20">Get Started</button>
                         <div class="copyright margin-bottom-30">
                             <ul class="flex font-size-14">
                                 <li>Copyright 2021 Boolean</li>
                                 <li>Classe XX</li>
-                                <li><a class="text-white" href="#">Privacy</a></li>
-                                <li><a class="text-white" href="#">policy</a> </li>
+                                <li><a class="text-white" href="#">Privacy policy</a></li>
                             </ul>
                         </div>
                     </div>
@@ -253,7 +269,7 @@
         <footer class="container">
             <div class="row">
                 <div class="col-80 text-white text-align-center font-size-14">
-                    <p class="margin-bottom-60">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi maiores minima vitae vero nulla pariatur impedit!</p>
+                    <p class="margin-bottom-60 margin-bottom-60-special ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi maiores minima vitae vero nulla pariatur impedit!</p>
                     <p><a class="text-purple" href="#">Lorem ipsum</a> scelerisque mauris pellentesque <a class="text-purple" href="#">Boolean careers</a></p>
                 </div>
             </div>
